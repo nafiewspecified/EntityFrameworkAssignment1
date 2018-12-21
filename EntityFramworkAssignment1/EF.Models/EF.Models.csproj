@@ -55,6 +55,18 @@
     <Compile Include="Migrations\201812201933066_CreateDb.Designer.cs">
       <DependentUpon>201812201933066_CreateDb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812211858470_CategoryIdAdded.cs" />
+    <Compile Include="Migrations\201812211858470_CategoryIdAdded.Designer.cs">
+      <DependentUpon>201812211858470_CategoryIdAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812211908556_ContactNoAndAddressAdded.cs" />
+    <Compile Include="Migrations\201812211908556_ContactNoAndAddressAdded.Designer.cs">
+      <DependentUpon>201812211908556_ContactNoAndAddressAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812211928147_CategoryIdRemoveFromCustomer.cs" />
+    <Compile Include="Migrations\201812211928147_CategoryIdRemoveFromCustomer.Designer.cs">
+      <DependentUpon>201812211928147_CategoryIdRemoveFromCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProjectDbContext.cs" />
@@ -67,6 +79,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201812201933066_CreateDb.resx">
       <DependentUpon>201812201933066_CreateDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812211858470_CategoryIdAdded.resx">
+      <DependentUpon>201812211858470_CategoryIdAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812211908556_ContactNoAndAddressAdded.resx">
+      <DependentUpon>201812211908556_ContactNoAndAddressAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812211928147_CategoryIdRemoveFromCustomer.resx">
+      <DependentUpon>201812211928147_CategoryIdRemoveFromCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
